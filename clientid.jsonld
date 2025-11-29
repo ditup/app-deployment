@@ -1,12 +1,12 @@
 {
   "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
-  "client_id": "http://localhost:4173/clientid.jsonld",
+  "client_id": "https://ditup.org/clientid.jsonld",
   "client_name": "ditup",
   "redirect_uris": [
-    "http://localhost:4173/"
+    "https://ditup.org/"
   ],
-  "client_uri": "http://localhost:4173/",
-  "logo_uri": "http://localhost:4173/logo.svg",
+  "client_uri": "https://ditup.org/",
+  "logo_uri": "https://ditup.org/logo.svg",
   "scope": "openid profile offline_access webid",
   "grant_types": [
     "refresh_token",

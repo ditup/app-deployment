@@ -965,7 +965,7 @@ svg {
     .logo svg #caps {
       fill: var(--color-primary);
     }
-  `;vs=ap([_t("dtp-logo")],vs);var lp=Object.defineProperty,up=Object.getOwnPropertyDescriptor,Zi=(t,e,r,n)=>{for(var s=n>1?void 0:n?up(e,r):e,a=t.length-1,l;a>=0;a--)(l=t[a])&&(s=(n?l(e,r,s):l(s))||s);return n&&s&&lp(e,r,s),s};const Fo="lastOidcIssuer";let bs=class extends Ct{constructor(){super(...arguments),this.defaultValue="hello world"}render(){return Qe`
+  `;vs=ap([_t("dtp-logo")],vs);var lp=Object.defineProperty,up=Object.getOwnPropertyDescriptor,Zi=(t,e,r,n)=>{for(var s=n>1?void 0:n?up(e,r):e,a=t.length-1,l;a>=0;a--)(l=t[a])&&(s=(n?l(e,r,s):l(s))||s);return n&&s&&lp(e,r,s),s};const Fo="lastOidcIssuer";let bs=class extends Ct{render(){return Qe`
       <form @submit=${this._submit}>
         <input
           required
